@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Registrationservice
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: 844514
+Implementation-Vendor-Id: com.registration
+Build-Jdk: 1.8.0_261
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Registrationservice
+Created-By: Maven Integration for Eclipse
+
