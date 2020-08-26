@@ -88,9 +88,6 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/x
 
 
 <!-- https://mvnrepository.com/artifact/io.springfox/springfox-swagger-ui -->
-
-
-
 <dependency>
 <groupId>io.springfox</groupId>
 <artifactId>springfox-swagger-ui</artifactId>
