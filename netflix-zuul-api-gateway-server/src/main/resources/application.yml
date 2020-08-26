@@ -1,0 +1,36 @@
+#Name of the application
+spring:
+  application:
+    name: ZuulService
+
+#Eureka server url for registering
+#This is eureka client
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+#register url to server    
+ 
+server:
+  port: 8989
+ 
+zuul:
+  sensitiveHeaders: Cookie,Set-Cookie
+  prefix: /bankingportal
+  routes:
+    product-details-service:
+      path: /registrationservice/***
+      service-id: Registrationservice
+    product-service:
+      path: /mutualfundservice/**
+      service-id: MutualFundservice
+    inventory-service:
+      path: /bankaccountservice/**
+      service-id: BankAccountservice
+
+     
+     
+     
+
